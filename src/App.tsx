@@ -3,11 +3,13 @@ import './App.css'
 import { Center } from './components/center.component'
 import { Technologies } from './components/technologies.component'
 import { CatDownScreen } from './components/random-components/cat-down-screen.component'
+import { Projects } from './components/projects.component'
 
 function App() {
 
   return (
     <>
+      <CatDownScreen />
 
       <Center heroImg={heroImg} />
 
@@ -16,8 +18,8 @@ function App() {
       <Technologies />
 
       <div className="ticks"></div>
-      <section id="spacer">
-        <CatDownScreen />
+      <section id="spacer" className="mb-20">
+        <Projects />
       </section>
     </>
   )
