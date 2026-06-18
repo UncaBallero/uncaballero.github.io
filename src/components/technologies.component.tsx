@@ -7,8 +7,8 @@ export function Technologies() {
                     <svg className="icon" role="presentation" aria-hidden="true">
                         <use href="/icons.svg#documentation-icon"></use>
                     </svg>
-                    <h2>Tecnologías</h2>
-                    <p>Aquí es donde sucede la magia.</p>
+                    <h2>Technologies</h2>
+                    <p>Here is where the magic happens.</p>
                     <ul>
                         <li>
                             <a href="https://react.dev/" target="_blank">
@@ -46,8 +46,8 @@ export function Technologies() {
                     <svg className="icon" role="presentation" aria-hidden="true">
                         <use href="/icons.svg#social-icon"></use>
                     </svg>
-                    <h2>Nos vemos en internet ;)</h2>
-                    <p>Links personales.</p>
+                    <h2>I'll see you on the internet ;)</h2>
+                    <p>Personal links.</p>
                     <ul>
                         <li>
                             <a href="https://github.com/UncaBallero" target="_blank">

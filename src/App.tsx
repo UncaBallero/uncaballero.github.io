@@ -1,23 +1,24 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import heroImg from './assets/terminal.webp'
 import './App.css'
 import { Center } from './components/center.component'
 import { Technologies } from './components/technologies.component'
+import { CatDownScreen } from './components/random-components/cat-down-screen.component'
 
 function App() {
 
   return (
     <>
 
-      <Center heroImg={heroImg} reactLogo={reactLogo} viteLogo={viteLogo} />
+      <Center heroImg={heroImg} />
 
       <div className="ticks"></div>
 
       <Technologies />
 
       <div className="ticks"></div>
-      <section id="spacer"></section>
+      <section id="spacer">
+        <CatDownScreen />
+      </section>
     </>
   )
 }
